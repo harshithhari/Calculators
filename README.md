@@ -1,7 +1,7 @@
 **Calculators**
 Calculators using python
 
-******red*Identify the type of Temperature******
+*******Identify the type of Temperature******
 
 x = float(input("please enter temp in Celcious :"))
 
