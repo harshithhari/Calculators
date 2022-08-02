@@ -33,5 +33,19 @@ elif y =='F' or y=='f':
     print('the temp in Celsius is :', 5 / 9 * (x - 32))
 else:
     print('invalid unit')
+ 
+ 
+ *********Write a program that asks the user to enter a length in centimeters. If the user enters a negative
+length, the program should tell the user that the entry is invalid. Otherwise, the program
+should convert the length to inches and print out the result. There are 2.54 centimeters in an
+inch******
+
+x = int(input('please enter len in cm :'))
+
+if x==-abs(x): # so in if statement or in any statements if we are compare to negative numbers then -abs should be used
+    print('invalid entry')
+else:
+    print('cm to inches:', x*2.54)
+    
     
     
