@@ -1,7 +1,7 @@
-# Calculators
+**Calculators**
 Calculators using python
 
-Identify the type of Temperature
+******Identify the type of Temperature******
 
 x = float(input("please enter temp in Celcious :"))
 
@@ -21,7 +21,7 @@ else:
     print('the temp is above boiling point')
     
 
-Convert of Temp from Farenheit to Celcious and vice versa
+*********Convert of Temp from Farenheit to Celcious and vice versa******
 
 x =float(input('please enter the temp :'))
 y = str(input('please specify the unit (C = Celsius and F = Fahrenheit):'))
