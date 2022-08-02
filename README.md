@@ -46,6 +46,27 @@ if x==-abs(x): # so in if statement or in any statements if we are compare to ne
     print('invalid entry')
 else:
     print('cm to inches:', x*2.54)
+
+
+*********A year is a leap year if it is divisible by 4, except that years divisible by 100 are not leap years
+#unless they are also divisible by 400. Write a program that asks the user for a year and prints
+#out whether it is a leap year or not.****
+
+Leap year Calculater
+
+x = int(input('please enter a year :'))
+
+if x%100==0 and x%400==0:
+    print('this is a leap year as it is divided by 400')
+
+elif x%4==0 and x%100==0:
+    print(' this is not a leap year as it also divided by 100')
+
+elif x%4==0:
+    print('this is a leap year')
+
+else:
+    print('this is not an leap year')
     
     
     
