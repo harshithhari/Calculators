@@ -68,5 +68,14 @@ elif x%4==0:
 else:
     print('this is not an leap year')
     
+ #########Maxim and Min####################
+    
+largest = int(input("enter a +ve number :"))
+for i in range(5):
+    x = int (input('enter a number:'))
+    if x>largest:
+        largest = x
+print('largest number :', largest)
+    
     
     
